@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           title: Text("Hola Mundo"),
         ),
         // body: Center(child: Text("Hola Mundo")),
-        body: new DescriptionPleace(),
+        body: new DescriptionPlace("Edson", 5, "Lorem"),
       ),
     );
   }

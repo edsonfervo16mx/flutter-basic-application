@@ -33,7 +33,10 @@ class DescriptionPlace extends StatelessWidget {
       child: Text(
         textDescription,
         style: TextStyle(
-            fontSize: 16.0, fontWeight: FontWeight.w300, color: Colors.black),
+            fontFamily: "Lato",
+            fontSize: 16.0,
+            fontWeight: FontWeight.w300,
+            color: Colors.black),
       ),
     );
 
@@ -43,7 +46,10 @@ class DescriptionPlace extends StatelessWidget {
           margin: EdgeInsets.only(top: 320.0, left: 20.0, right: 20.0),
           child: Text(
             titleDescription,
-            style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.w900),
+            style: TextStyle(
+                fontFamily: "Lato",
+                fontSize: 30.0,
+                fontWeight: FontWeight.w900),
             textAlign: TextAlign.left,
           ),
         ),
